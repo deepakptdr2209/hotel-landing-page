@@ -14,7 +14,7 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <h3 className="text-2xl font-bold text-orange-500 mb-4">
-              Hotel Sanskriti
+              Hotel Sanskruti
             </h3>
             <p className="text-gray-400">
               Your home away from home in Bailhongal
@@ -114,7 +114,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400"
         >
-          <p>Hotel Sanskriti © 2025 - All Rights Reserved</p>
+          <p>Hotel Sanskruti © 2025 - All Rights Reserved</p>
         </motion.div>
       </div>
     </footer>

@@ -33,7 +33,7 @@ const Header = () => {
             animate={{ opacity: 1 }}
             className={`text-2xl font-bold ${isScrolled ? 'text-orange-600' : 'text-white'} transition-colors duration-300`}
           >
-            Hotel Sanskriti
+            Hotel Sanskruti
           </motion.div>
 
           <div className="hidden md:flex items-center space-x-8">
