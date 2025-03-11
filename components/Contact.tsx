@@ -39,7 +39,7 @@ const Contact = () => {
               <div>
                 <h3 className="font-semibold mb-1">Location</h3>
                 <p className="text-gray-600">
-                  Sadhunavvar Estate, Opposite busstand, Bailhongal
+                  Sadhunavvar Estate, Opposite bus stand, Bailhongal
                 </p>
               </div>
             </div>
