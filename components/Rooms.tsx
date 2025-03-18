@@ -2,17 +2,18 @@
 
 import { motion } from "framer-motion";
 import { Wifi, Wind, Coffee } from "lucide-react";
+import Image from "next/image";
 
 const rooms = [
   {
     type: "AC Deluxe Room",
-    price: "₹2,500",
+    price: "₹1,200",
     image: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     amenities: ["Air Conditioning", "Free Wi-Fi", "Room Service"],
   },
   {
     type: "Non-AC Standard Room",
-    price: "₹1,500",
+    price: "₹800",
     image: "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     amenities: ["Cable TV", "Daily Housekeeping", "Free Parking"],
   },
@@ -45,10 +46,11 @@ const Rooms = () => {
               className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="relative h-64">
-                <img
+                <Image
                   src={room.image}
                   alt={room.type}
-                  className="w-full h-full object-cover"
+                  layout="fill"
+                  objectFit="cover"
                 />
               </div>
               <div className="p-6">

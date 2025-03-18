@@ -21,7 +21,7 @@ const Hero = () => {
           className="text-5xl md:text-7xl font-bold mb-6"
         >
           Welcome to{" "}
-          <span className="text-orange-500">Hotel Sanskruti Bar and Restaurant</span>
+          <span className="text-orange-500">Hotel Sanskruti Bar, Restaurant & Lodge</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
