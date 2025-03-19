@@ -39,7 +39,7 @@ const Contact = () => {
               <div>
                 <h3 className="font-semibold mb-1">Location</h3>
                 <p className="text-gray-600">
-                  Sadhunavvar Estate, Opposite bus stand, Bailhongal
+                  3733, Bharat Talkies Road, Bailhongal, Belagavi, Karnataka, 591102
                 </p>
               </div>
             </div>

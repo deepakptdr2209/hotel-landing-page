@@ -73,7 +73,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-2 text-gray-400">
               <li>Sadhunavvar Estate</li>
-              <li>Opposite bus stand, Bailhongal</li>
+              <li> 3733, Bharat Talkies Road, Bailhongal, Belagavi, Karnataka, 591102</li>
               <li>Phone: +91 90363 62830</li>
             </ul>
           </motion.div>
